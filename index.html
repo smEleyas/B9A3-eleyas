@@ -33,14 +33,163 @@
    </style>
 </head>
 <body class="font-manrope">
-    <header>
-
-    </header>
+    <!-- navbar section -->
+        <header class="md:container md:mx-auto border-2 border-black">
+          <!-- nav menu -->
+          <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl font-extrabold">Hockey<span class="text-[#ff0000]">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <!-- added  -->
+                <div class="navbar-end">
+                    <button class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                    </button>
+                    <div>
+                        <a class="bg-[#FF4240] text-[#FFF] btn">Button</a>
+                    </div>
+                </div>
+                <!-- added -->
+    
+                
+              </div>
+          </nav>
+    <!-- Slider or carousel -->
+    <div class="carousel w-full h-[550px]">
+        <!-- slide 1 -->
+        <div id="slide1" class="relative carousel-item w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+            <div class="absolute w-96 h-36 bg-[black] bottom-right rounded-xl text-white right-52 bottom-16">
+                <div class="p-5">
+                    <h2 class="font-extrabold pb-2">Meet all the heroes from the field</h2>
+                <p class="font-normal">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+            </div>
+        </div> 
+        <!-- slide 2 -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/2.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+          <div class="absolute w-96 h-36 bg-[black] bottom-right rounded-xl text-white right-52 bottom-16">
+            <div class="p-5">
+                <h2 class="font-extrabold pb-2">Meet all the heroes from the field</h2>
+            <p class="font-normal">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </div>
+        </div> 
+        <!-- slide 3 -->
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/3.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+          <div class="absolute w-96 h-36 bg-[black] bottom-right rounded-xl text-white right-52 bottom-16">
+            <div class="p-5">
+                <h2 class="font-extrabold pb-2">Meet all the heroes from the field</h2>
+            <p class="font-normal">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </div>
+        </div> 
+      </div>
+        </header>
     <main>
+        <section class="md:container md:mx-auto border-2 border-black mt-5">
+            <div class="bg-base-200 p-10 text-center">
+                <div class="">
+                    <h2 class="text-4xl font-bold">Clients Question</h2>
+                    <p class="text-2xl text-wrap mt-5">Dit amet consectetur. Condimentum dignissim adipiscing <br> aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+                    <div class="hero min-h-2.5">
+                        <div class="hero-content flex-col lg:flex-row text-left">
+                          <img src="Images/11.png" class="max-w-sm rounded-lg shadow-2xl p-5" />
+                            <div class="p-4">
+                            <!-- Questions FAQ -->
+                                <div class="collapse collapse-plus bg-base-200">
+                                    <input type="radio" name="my-accordion-3" checked="checked" /> 
+                                    <div class="collapse-title text-xl font-medium">
+                                        Our Equipment
+                                    </div>
+                                    <div class="collapse-content"> 
+                                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                    </div>
+                                </div>
+                                <div class="collapse collapse-plus bg-base-200">
+                                    <input type="radio" name="my-accordion-3" /> 
+                                    <div class="collapse-title text-xl font-medium">
+                                    Hockey Training
+                                    </div>
+                                    <div class="collapse-content"> 
+                                    <p>Note-2</p>
+                                    </div>
+                                </div>
+                                <div class="collapse collapse-plus bg-base-200">
+                                    <input type="radio" name="my-accordion-3" /> 
+                                    <div class="collapse-title text-xl font-medium">
+                                    Private Lessons
+                                    </div>
+                                    <div class="collapse-content"> 
+                                    <p>Note-3</p>
+                                    </div>
+                                </div>
+                                <div class="collapse collapse-plus bg-base-200">
+                                    <input type="radio" name="my-accordion-3" /> 
+                                    <div class="collapse-title text-xl font-medium">
+                                    Ski Touring
+                                    </div>
+                                    <div class="collapse-content"> 
+                                    <p>Note-4</p>
+                                    </div>
+                                </div>
+                                <div class="collapse collapse-plus bg-base-200">
+                                    <input type="radio" name="my-accordion-3" /> 
+                                    <div class="collapse-title text-xl font-medium">
+                                    Booking
+                                    </div>
+                                    <div class="collapse-content"> 
+                                    <p>Note-5</p>
+                                    </div>
+                                </div>
 
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </section>
+        
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
